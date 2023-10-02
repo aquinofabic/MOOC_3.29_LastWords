@@ -15,5 +15,12 @@ public class Main {
                 break;
             }
         }
+        String testInput = scanner.nextLine();
+        firstLetter(testInput);
+    }
+
+    public static void firstLetter(String string) {
+        char character = string.charAt(0);
+        System.out.println(character);
     }
 }
